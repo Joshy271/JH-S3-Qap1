@@ -1,0 +1,17 @@
+{
+  "name": "jh-s3-qap1",
+  "version": "1.0.0",
+  "description": "This github includes everything needed for the grading of Semester 3 QAP 1",
+  "main": "Stream.js",
+  "dependencies": {
+    "emitter-component": "^1.1.1",
+    "stream": "^0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
