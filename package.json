@@ -5,9 +5,9 @@
   "main": "Stream.js",
   "dependencies": {
     "emitter-component": "^1.1.1",
+    "lodash": "^4.17.21",
     "stream": "^0.0.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

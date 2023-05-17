@@ -6,7 +6,9 @@
 const fs = require("fs");
 
 // Here I use fs.createReadStream to read ./Piano-Man.txt which contains the lyrics to Piano Man by Billy Joel. then I use highWaterMark to limit the chunk size to 50 bytes
-const readable = fs.createReadStream("./Piano-Man.txt", { highWaterMark: 50 });
+const readable = fs.createReadStream("./Files/Piano-Man.txt", {
+  highWaterMark: 50,
+});
 
 //This listens for an event named data and Converts it to a string for every chunk recieved and console logs it
 readable.on("data", (chunk) => {
